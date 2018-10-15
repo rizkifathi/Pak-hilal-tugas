@@ -1,0 +1,41 @@
+<?php
+$a = 10;
+$b = 5;
+$c = 6;
+$d = 3.5;
+$f = -6.5;
+$g = 11;
+$h = 4;
+$i = 13;
+$j = 12;
+$k = 3;
+$l = -5.5;
+
+echo "1). $a~$b~ ";
+echo $hasil=$a+$b-2.5;
+echo "<p>";
+echo "2). $a~$c~ ";
+echo $hasil=$a%$c-0.5;
+echo "<p>";
+echo "3). $a~$c~$d~ ";
+echo $hasil=$a+$c-$d+0.5+37;
+echo "<p>";
+echo "4). $g~$c~$f~ ";
+echo $hasil=$g+$c+$f+95.5;
+echo "<p>";
+echo "5). $g~$b~ ";
+echo $hasil=$g-$b-5.5-11;
+echo "<p>";
+echo "6). $g~$h~ ";
+echo $hasil=$g-$h-13.5;
+echo "<p>";
+echo "7). $i~$h~ ";
+echo $hasil=$i-$h-14.56;
+echo "<p>";
+echo "8). $j~$k~ ";
+echo $hasil=$i-$k-15.56;
+echo "<p>";
+echo "9). $j~$k~$l~ ";
+echo $hasil=$i-$k+$l-9.5;
+echo "<p>";
+?>
